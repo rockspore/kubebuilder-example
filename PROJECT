@@ -1,3 +1,7 @@
 domain: github.com
 repo: github.com/rockspore/kubebuilder-example
+resources:
+- group: webapp
+  kind: Guestbook
+  version: v1
 version: "2"
