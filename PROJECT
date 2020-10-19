@@ -1,7 +1,7 @@
-domain: github.com
-repo: github.com/rockspore/kubebuilder-example
+domain: tutorial.kubebuilder.io
+repo: tutorial.kubebuilder.io/project
 resources:
-- group: webapp
-  kind: Guestbook
+- group: batch
+  kind: CronJob
   version: v1
 version: "2"
